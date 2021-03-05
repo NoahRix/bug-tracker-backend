@@ -54,4 +54,4 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
-app.listen(3001);
+app.listen(process.env.PORT);
