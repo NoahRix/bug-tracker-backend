@@ -19,7 +19,7 @@ console.log("Bug Tracker backend Starting...");
 var whitelist = ['http://localhost:3000', 'http://localhost:3001', 'https://noahrix-bug-tracker-backend.herokuapp.com/*'];
 
 var corsOptions = {
-    credentials: true,
+    credentials: false,
     origin: function (origin, callback) {
 
         if (whitelist.indexOf(origin) !== -1 || !origin) {
