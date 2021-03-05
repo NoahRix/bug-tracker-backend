@@ -1,11 +1,11 @@
 //Database configuration.
 var mysql = require('mysql')
 var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'bug_tracker',
-    infileStreamFactory: path => fs.createReadStream(path)
+    host: 'pxukqohrckdfo4ty.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'lk29l9vskr8x2w7e',
+    password: 'kbi6sgrvps0wiorm',
+    database: 'h1gtfw3uuuyktywj',
+    port: 3306
 })
 
 connection.connect(error => {
