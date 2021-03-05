@@ -19,21 +19,21 @@ console.log("Bug Tracker backend Starting...");
 
 //Cross Origins configuration.
 //var whitelist = ['http://localhost:3000', 'http://localhost:3001', '69.174.145.39:3000'];
-var whitelist = ['*'];
+//var whitelist = ['*'];
 
-var corsOptions = {
-    credentials: true,
-    origin: function (origin, callback) {
-
-        if (whitelist.indexOf(origin) !== -1 || !origin) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS: ' + origin))
-        }
-    }
-}
-
-app.use(cors(corsOptions));
+//var corsOptions = {
+//    credentials: true,
+//    origin: function (origin, callback) {
+//
+//        if (whitelist.indexOf(origin) !== -1 || !origin) {
+//            callback(null, true)
+//        } else {
+//            callback(new Error('Not allowed by CORS: ' + origin))
+//        }
+//    }
+//}
+//
+//app.use(cors(corsOptions));
 
 require("./app/routes/user.routes.js")(app);
 require("./app/routes/user_salary_history.routes.js")(app);
