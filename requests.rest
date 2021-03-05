@@ -1,0 +1,91 @@
+
+
+GET http://localhost:3001/api/get/user/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibm9haCIsImlhdCI6MTU5ODIwMzI2MSwiZXhwIjoxNTk4MjAzMjc2fQ.prhylEi7CEzz61PNEMS78Q7SoAsuHpK4d37JiZlw2fQ
+
+###
+
+POST http://localhost:3001/api/post/user/new
+Content-Type: application/json
+
+{
+    "username": "person",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:3001/api/get/bug/byreportee
+Content-Type: application/json
+
+{
+    "username": "noah"
+}
+
+
+###
+
+GET http://localhost:3001/api/get/bug/all
+
+###
+
+GET http://localhost:3001/api/get/bug/reportee?username=noah
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vYWgiLCJpYXQiOjE2MDE2OTU0MTQsImV4cCI6MTYwMTY5NjAxNH0.vYp8DswsZnIniWh9fwFn2Xg367DqX7Sl24tBffI8VDo
+
+###
+
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{
+    "username": "phil",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:3001/mass
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/verify
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibm9haCIsImlhdCI6MTU5ODIwMzExMSwiZXhwIjoxNTk4MjAzMTM2fQ.2ZyfwI7TmEzFCqPzSCvp1cLOinhEL8g_azGUTzgzF14
+
+###
+
+DELETE http://localhost:3001/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTm9haCIsImlhdCI6MTU5Nzk1OTE1Mn0.T2VXyX2V59Y-Q0RmhkhC_9eU8RurU7ooGqBLrYJVx9s"
+}
+
+###
+
+POST http://localhost:3001/api/post/auth/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVsdmlzIiwiaWF0IjoxNjA3ODI2Nzk5fQ.SYePrHn86KmYRxGNP5zKD8rb1-K2fqhQc01kfMduX_w"
+}
+
+###
+
+POST http://localhost:3001/api/post/auth/login
+Content-Type: application/json
+
+{
+    "username": "noah",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:3001/api/post/bug/test
+
+###
+
+GET http://localhost:3001/api/get/bug/allprogress
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vYWgiLCJpYXQiOjE2MDE0ODUxNDAsImV4cCI6MTYwMTQ4NTc0MH0.P-M_TQYCSCTqbuxhVrHkNFy6Fkt2utBsg8Z7a8xPviw
+

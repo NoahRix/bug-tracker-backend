@@ -1,0 +1,60 @@
+VwwIWyI,LGC,2020-08-20 14:04:10,insufficient return path for function RunLast at line 344,phil
+sHqZMxv,LGC,2020-08-30 12:57:59,insufficient return path for function execPrint at line 659,phil
+oGYsrkk,LGC,2020-09-05 16:20:28,unnecessary return at line 232,james
+PUkAdFm,LGC,2020-09-09 15:51:54,insufficient return path for function RecoverSystem32 at line 770,phil
+FJqQqlQ,LGC,2020-09-12 15:31:12,unnecessary return at line 319,james
+KJzHHjm,LGC,2020-08-23 14:22:11,insufficient return path for function RecoverSystem32 at line 332,phil
+kTlTuGC,LGC,2020-08-31 16:39:51,insufficient return path for function crashComputer at line 135,james
+IblnNRh,LGC,2020-09-20 14:01:31,unnecessary return at line 170,james
+zfEZWwq,LGC,2020-11-26 17:12:56,unnecessary return at line 230,james
+YFTjFCy,LGC,2020-10-22 15:41:14,unnecessary return at line 706,noah
+zQmIiHB,LGC,2020-10-26 11:40:27,insufficient return path for function InvalidatePointer at line 550,boss
+gYVnzAM,LGC,2020-10-27 16:51:08,insufficient return path for function execPrint at line 626,phil
+etUdUTB,LGC,2020-11-27 08:13:34,insufficient return path for function DeleteSystem32 at line 388,james
+LVajoyf,LGC,2020-11-28 12:24:23,unnecessary return at line 632,james
+APLvNkj,LGC,2020-09-27 13:22:09,unnecessary return at line 481,noah
+OkKhfJD,LGC,2020-09-18 13:43:23,insufficient return path for function RecoverSystem32 at line 546,boss
+GMpGbyK,LGC,2020-10-08 11:08:24,insufficient return path for function RunLast at line 474,noah
+LCQZOoY,LGC,2020-09-05 11:52:17,unnecessary return at line 595,phil
+ICuAVEh,LGC,2020-08-24 16:43:39,insufficient return path for function execPrint at line 187,boss
+gSXNEjC,LGC,2020-11-13 17:19:44,unnecessary return at line 187,james
+qONdXgs,RTM,2020-08-15 09:07:32,segmentation fault at line 801,boss
+cqwHHLc,RTM,2020-11-01 08:53:08,segmentation fault at line 843,boss
+mwEXRfr,RTM,2020-08-01 12:32:34,stack over flow at line 988,boss
+hPKUqAD,RTM,2020-11-07 13:12:08,segmentation fault at line 828,phil
+EIMDzZK,RTM,2020-10-10 15:18:26,segmentation fault at line 249,phil
+QXxWyEO,RTM,2020-09-08 10:12:38,segmentation fault at line 641,phil
+xTxzzer,RTM,2020-10-31 09:11:20,segmentation fault at line 317,phil
+AXUsVIO,RTM,2020-09-21 15:43:27,stack over flow at line 263,boss
+tLlMxyw,RTM,2020-08-15 08:24:18,segmentation fault at line 257,phil
+ayqIipl,RTM,2020-11-08 15:12:46,stack over flow at line 628,noah
+CLFMBYB,RTM,2020-09-03 08:12:01,stack over flow at line 310,james
+XgyGStm,RTM,2020-11-24 13:21:21,stack over flow at line 813,james
+qkhyZtp,RTM,2020-08-03 16:50:09,segmentation fault at line 100,james
+mXeBcdY,RTM,2020-11-01 09:35:10,stack over flow at line 964,noah
+gYJzyiW,RTM,2020-11-20 09:37:40,segmentation fault at line 4,phil
+fiRYQZI,RTM,2020-10-24 12:36:44,segmentation fault at line 871,phil
+sLwEzWL,RTM,2020-10-26 08:42:30,segmentation fault at line 169,boss
+xLIJLeS,RTM,2020-10-26 10:12:10,segmentation fault at line 748,phil
+MKthrFq,RTM,2020-09-04 11:22:02,segmentation fault at line 678,noah
+taNcaDU,RTM,2020-08-01 13:52:50,stack over flow at line 404,boss
+xgMmsKY,CMP,2020-08-28 14:00:54,unknown class "z_oe" on line 746,phil
+fIcJdtH,CMP,2020-09-28 16:41:42,undeclared class "OPN" on line 606,james
+SCXpNYy,CMP,2020-11-14 09:35:01,unused function "nckOpen" on line 923,boss
+vVakeqM,CMP,2020-11-21 10:56:01,unused function "z_oe" on line 246,phil
+jsCGDNq,CMP,2020-09-08 16:42:29,unknown variable "ope" on line 64,james
+dGPsGCS,CMP,2020-08-20 11:05:53,unknown variable "nckOpen" on line 5,james
+tJRFPvZ,CMP,2020-08-30 11:13:06,unused variable "ope" on line 117,james
+tTPcWlN,CMP,2020-09-30 15:34:04,unused function "m_open" on line 227,james
+qNhHAnv,CMP,2020-11-06 16:31:14,unknown class "v_OPE" on line 329,noah
+dzMHGGR,CMP,2020-09-19 09:39:23,undeclared function "__Ope" on line 684,james
+vweAUVD,CMP,2020-11-23 08:04:46,unknown class "v_OPE" on line 817,noah
+LlrsMKY,CMP,2020-11-03 16:31:44,unused class "z_oe" on line 841,noah
+rjDLONd,CMP,2020-10-17 17:38:01,unused function "m_open" on line 14,phil
+bPegbvc,CMP,2020-08-22 11:43:12,undeclared function "wql_open" on line 859,boss
+BLDyUZp,CMP,2020-10-25 16:31:42,unused function "m_open" on line 4,noah
+fDnDBsq,CMP,2020-11-24 12:39:15,unknown variable "v_OPE" on line 950,noah
+TGCXwld,CMP,2020-09-10 10:53:45,undeclared function "ju_OPEN" on line 345,noah
+yTaWAzS,CMP,2020-08-09 13:57:09,undeclared class "OPN" on line 14,james
+fohmTdg,CMP,2020-10-31 15:55:21,undeclared class "v_OPE" on line 430,boss
+HQqkbnL,CMP,2020-11-02 10:20:25,undeclared variable "ybs_open" on line 715,boss
