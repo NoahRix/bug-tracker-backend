@@ -16,7 +16,7 @@ const rt = require('./app/utils/RouterTools');
 console.log("Bug Tracker backend Starting...");
 
 //Cross Origins configuration.
-var whitelist = ['http://localhost:3000', 'http://localhost:3001', '*'];
+var whitelist = ['http://localhost:3000', 'http://localhost:3001', 'https://noahrix-bug-tracker-backend.herokuapp.com/*'];
 
 var corsOptions = {
     credentials: true,
