@@ -1,6 +1,7 @@
 const sql = require("../utils/db.js");
 const dbt = require("../utils/DatabaseTools.js");
 const jwt = require('jsonwebtoken');
+const fs = require('fs');
 const bcrypt = require('bcryptjs');
 const AuthUtil = require('../utils/auth');
 
@@ -112,3 +113,13 @@ exports.token = (refreshToken, result) => {
         })
     }, [refreshToken])
 }
+
+/**
+ *  Resets the database.
+ *
+ *  @param result   Callback function to send the response data.
+ */
+ exports.resetDatabase = result => {
+     const sqlData = fs.readFileSync('./bug-tracker-backend.sql').toString() //.replace(/\n|\t/g, ' ');
+     dbt.execute(sqlData, result);
+ }

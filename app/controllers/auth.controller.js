@@ -74,3 +74,15 @@ exports.token = (req, res) => {
         res.send(data);
     })
 }
+
+/**
+*  This resets the entire datasbase to the default state 
+*
+*  @param req not used.
+*  @param res Response data.
+*/
+exports.resetDatabase = (req, res) => {
+    Auth.resetDatabase(data => {
+        res.send(data);
+    });
+};

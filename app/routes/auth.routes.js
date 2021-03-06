@@ -14,4 +14,8 @@ module.exports = app => {
     
     app.post('/api/post/auth/token', auth.token);
     rt.routeParams.push(["token"]);
+
+    app.post('/api/post/auth/reset-database', auth.resetDatabase);
+    rt.routeParams.push(null);
+
 }
